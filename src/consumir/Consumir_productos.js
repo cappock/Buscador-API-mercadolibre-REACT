@@ -65,6 +65,8 @@ export default class Consumir_productos extends Component {
         const items = [];
         var i = 0;
         for (var index of elements) {
+            var Natt = index.attributes.length;
+            console.log(Natt);
             items.push(
                 <div id="container">
                     <div class="product-details">
@@ -97,9 +99,7 @@ export default class Consumir_productos extends Component {
                             <h2>Informacion</h2>
                             <ul>
                                 <li><strong>Lugar: </strong>{index.address.state_name}</li> 
-                                <li><strong>{index.attributes[0].name} :</strong>{index.attributes[0].value_name}</li>
-                                <li><strong>{index.attributes[1].name} : </strong>{index.attributes[1].value_name}</li>
-                                <li><strong>{index.attributes[2].name} : </strong>{index.attributes[2].value_name}</li>
+                                <li><strong>{index.attributes[0].name} :</strong>{index.attributes[0].value_name}</li>                                                                
                             </ul>
                         </div>
                     </div>
