@@ -113,7 +113,7 @@ export default class Consumir_productos extends Component {
 
                
                 <div>
-                    <h6 class= "h6">HECTOR GUERRA</h6>
+                    <h6 class= "h6">HECTOR GUERRA-MERCADO LIBRE</h6>
                     <div class="box">
                         <div class="container-1">
                             <input type="search" id="search" placeholder="Search..." onChange={this.handleEdit} />
