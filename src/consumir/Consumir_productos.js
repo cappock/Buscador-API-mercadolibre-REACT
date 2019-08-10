@@ -99,7 +99,7 @@ export default class Consumir_productos extends Component {
                             <h2>Informacion</h2>
                             <ul>
                                 <li><strong>Lugar: </strong>{index.address.state_name}</li> 
-                                <li><strong>{index.attributes[0].name} :</strong>{index.attributes[0].value_name}</li>                                                                
+                                                                                             
                             </ul>
                         </div>
                     </div>
